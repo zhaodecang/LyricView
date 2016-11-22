@@ -1,16 +1,19 @@
 # LyricView
-�����ֲ�������Ŀ��ʹ�õ���ʾ��ʵĹ���,ʵ���ò�ͬ��ɫ�������������ڲ��ź�δ���Ÿ��
-��ͼ����(��ͼЧ�����Ǻܺ�,������Demo�鿴):
+在音乐播放器项目中使用到显示歌词的功能,实现用不同颜色和字体区分正在播放和未播放歌词
 
-![]{/ScreenShot.gif}
+截图如下(截图效果不是很好,请下载Demo查看)
 
-ʹ�÷�ʽ��
+![](/ScreenShot.gif)
+
+使用方式：
+
 	<com.zdc.lyricdemo.view.LyricView
 			android:id="@+id/lvView"
 			android:layout_width="match_parent"
 			android:layout_height="420dp"
 			android:background="@drawable/base_bg" />
-Ȼ���ڴ����г�ʼ��MediaPlayer����ʡ����ü�����
+然后在代码中初始化MediaPlayer、歌词、设置监听：
+
 	public class TtActivity extends Activity implements OnClickListener {
 
 		private Button btnPlayPause;
