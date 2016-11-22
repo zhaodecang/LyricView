@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LrcView</string>
+    <string name="btnstr">播放/暂停</string>
+</resources>

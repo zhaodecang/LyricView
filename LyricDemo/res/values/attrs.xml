@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LrcView">
+        <attr name="lrcTextSize" format="dimension" />
+        <attr name="lrcNormalTextColor" format="reference|color" />
+        <attr name="lrcGradientStartColor" format="reference|color" />
+        <attr name="lrcGradientEndColor" format="reference|color" />
+    </declare-styleable>
+</resources>
