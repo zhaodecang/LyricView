@@ -1,7 +1,7 @@
 # LyricView
 在音乐播放器项目中使用到酷狗音乐展示歌词的效果，需要支持修改字体、颜色、渐变色等功能
 
-截图如下(截图效果不是很好,请下载Demo查看)
+截图如下(截图效果不是很好,<a href="https://github.com/zhaodecang/LyricView.git">请下载Demo查看</a>)
 
 ![](/ScreenShot.gif)
 
